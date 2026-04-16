@@ -1,0 +1,65 @@
+# =============================
+# OS / Editor
+# =============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+
+# =============================
+# Python (backend)
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env/
+
+# Env files (keep secrets out of git)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Logs
+*.log
+
+# Uploads / generated runtime data
+backend/uploads/
+!backend/uploads/.gitkeep
+
+# =============================
+# Node / Vite (frontend)
+# =============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files (Vite)
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+!frontend/.env.template
+
+# =============================
+# Misc
+# =============================
+*.tmp
+*.swp
